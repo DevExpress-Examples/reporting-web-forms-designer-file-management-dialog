@@ -1,0 +1,516 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v15.2, Version=15.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v15.2\v4.0_15.2.11.0__b88d1754d700e49a\DevExpress.XtraReports.v15.2.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <Version>15.2</Version>
+///   <Resources>
+///     <Resource Name="XtraReportSerialization.CategoriesReport">
+/// zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAABAAAAAAAAAFBBRFBBRFA4hdt+AAAAAA8BAABOcwBxAGwARABhAHQAYQBTAG8AdQByAGMAZQAxAC4AUgBlAHMAdQBsAHQAUwBjAGgAZQBtAGEAUwBlAHIAaQBhAGwAaQB6AGEAYgBsAGUAAAAAAAHQG1BFUmhkR0ZUWlhRZ1RtRnRaVDBpYzNGc1JHRjBZVk52ZFhKalpURWlQanhXYVdWM0lFNWhiV1U5SWtOaGRHVm5iM0pwWlhNaVBqeEdhV1ZzWkNCT1lXMWxQU0pEWVhSbFoyOXll
+/// VWxFSWlCVWVYQmxQU0pKYm5Rek1pSWdMejQ4Um1sbGJHUWdUbUZ0WlQwaVEyRjBaV2R2Y25sT1lXMWxJaUJVZVhCbFBTSlRkSEpwYm1jaUlDOCtQRVpwWld4a0lFNWhiV1U5SWtSbGMyTnlhWEIwYVc5dUlpQlVlWEJsUFNKVGRISnBibWNpSUM4K1BFWnBaV3hrSUU1aGJXVTlJbEJwWTNSMWNtVWlJRlI1Y0dVOUlrSjVkR1ZCY25KaGVTSWdMejQ4TDFacFpYYytQRlpwWlhjZ1RtRnRaVDBpUlcxd2JHOTVaV1Z6SWo0OFJtbGxiR1FnVG1GdFpUMGlSVzF3Ykc5NVpXVkpSQ0lnVkhsd1pUMGlTVzUwTXpJaUlDOCtQRVpwWld4a0lFNWhiV1U5SWt4aGMzUk9ZVzFsSWlCVWVYQmxQU0pUZEhKcGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlrWnBjbk4wVG1GdFpTSWdWSGx3
+/// WlQwaVUzUnlhVzVuSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pVYVhSc1pTSWdWSGx3WlQwaVUzUnlhVzVuSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pVYVhSc1pVOW1RMjkxY25SbGMza2lJRlI1Y0dVOUlsTjBjbWx1WnlJZ0x6NDhSbWxsYkdRZ1RtRnRaVDBpUW1seWRHaEVZWFJsSWlCVWVYQmxQU0pFWVhSbFZHbHRaU0lnTHo0OFJtbGxiR1FnVG1GdFpUMGlTR2x5WlVSaGRHVWlJRlI1Y0dVOUlrUmhkR1ZVYVcxbElpQXZQanhHYVdWc1pDQk9ZVzFsUFNKQlpHUnlaWE56SWlCVWVYQmxQU0pUZEhKcGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlrTnBkSGtpSUZSNWNHVTlJbE4wY21sdVp5SWdMejQ4Um1sbGJHUWdUbUZ0WlQwaVVtVm5hVzl1SWlCVWVYQmxQU0pUZEhK
+/// cGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlsQnZjM1JoYkVOdlpHVWlJRlI1Y0dVOUlsTjBjbWx1WnlJZ0x6NDhSbWxsYkdRZ1RtRnRaVDBpUTI5MWJuUnllU0lnVkhsd1pUMGlVM1J5YVc1bklpQXZQanhHYVdWc1pDQk9ZVzFsUFNKSWIyMWxVR2h2Ym1VaUlGUjVjR1U5SWxOMGNtbHVaeUlnTHo0OFJtbGxiR1FnVG1GdFpUMGlSWGgwWlc1emFXOXVJaUJVZVhCbFBTSlRkSEpwYm1jaUlDOCtQRVpwWld4a0lFNWhiV1U5SWxCb2IzUnZJaUJVZVhCbFBTSkNlWFJsUVhKeVlYa2lJQzgrUEVacFpXeGtJRTVoYldVOUlrNXZkR1Z6SWlCVWVYQmxQU0pUZEhKcGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlsSmxjRzl5ZEhOVWJ5SWdWSGx3WlQwaVNXNTBNeklpSUM4K1BD
+/// OVdhV1YzUGp4V2FXVjNJRTVoYldVOUlrOXlaR1Z5SUVSbGRHRnBiSE1pUGp4R2FXVnNaQ0JPWVcxbFBTSlBjbVJsY2tsRUlpQlVlWEJsUFNKSmJuUXpNaUlnTHo0OFJtbGxiR1FnVG1GdFpUMGlVSEp2WkhWamRFbEVJaUJVZVhCbFBTSkpiblF6TWlJZ0x6NDhSbWxsYkdRZ1RtRnRaVDBpVlc1cGRGQnlhV05sSWlCVWVYQmxQU0pFWldOcGJXRnNJaUF2UGp4R2FXVnNaQ0JPWVcxbFBTSlJkV0Z1ZEdsMGVTSWdWSGx3WlQwaVNXNTBNVFlpSUM4K1BFWnBaV3hrSUU1aGJXVTlJa1JwYzJOdmRXNTBJaUJVZVhCbFBTSlRhVzVuYkdVaUlDOCtQQzlXYVdWM1BqeFdhV1YzSUU1aGJXVTlJazl5WkdWeWN5SStQRVpwWld4a0lFNWhiV1U5SWs5eVpHVnlTVVFpSUZSNWNHVTlJ
+/// a2x1ZERNeUlpQXZQanhHYVdWc1pDQk9ZVzFsUFNKRGRYTjBiMjFsY2tsRUlpQlVlWEJsUFNKVGRISnBibWNpSUM4K1BFWnBaV3hrSUU1aGJXVTlJa1Z0Y0d4dmVXVmxTVVFpSUZSNWNHVTlJa2x1ZERNeUlpQXZQanhHYVdWc1pDQk9ZVzFsUFNKUGNtUmxja1JoZEdVaUlGUjVjR1U5SWtSaGRHVlVhVzFsSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pTWlhGMWFYSmxaRVJoZEdVaUlGUjVjR1U5SWtSaGRHVlVhVzFsSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pUYUdsd2NHVmtSR0YwWlNJZ1ZIbHdaVDBpUkdGMFpWUnBiV1VpSUM4K1BFWnBaV3hrSUU1aGJXVTlJa1p5WldsbmFIUWlJRlI1Y0dVOUlrUmxZMmx0WVd3aUlDOCtQRVpwWld4a0lFNWhiV1U5SWxOb2FYQk9ZVzFs
+/// SWlCVWVYQmxQU0pUZEhKcGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlsTm9hWEJCWkdSeVpYTnpJaUJVZVhCbFBTSlRkSEpwYm1jaUlDOCtQRVpwWld4a0lFNWhiV1U5SWxOb2FYQkRhWFI1SWlCVWVYQmxQU0pUZEhKcGJtY2lJQzgrUEVacFpXeGtJRTVoYldVOUlsTm9hWEJTWldkcGIyNGlJRlI1Y0dVOUlsTjBjbWx1WnlJZ0x6NDhSbWxsYkdRZ1RtRnRaVDBpVTJocGNGQnZjM1JoYkVOdlpHVWlJRlI1Y0dVOUlsTjBjbWx1WnlJZ0x6NDhSbWxsYkdRZ1RtRnRaVDBpVTJocGNFTnZkVzUwY25raUlGUjVjR1U5SWxOMGNtbHVaeUlnTHo0OEwxWnBaWGMrUEZacFpYY2dUbUZ0WlQwaVVISnZaSFZqZEhNaVBqeEdhV1ZzWkNCT1lXMWxQU0pRY205a2RXTjBTVVFpSUZS
+/// NWNHVTlJa2x1ZERNeUlpQXZQanhHYVdWc1pDQk9ZVzFsUFNKUWNtOWtkV04wVG1GdFpTSWdWSGx3WlQwaVUzUnlhVzVuSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pUZFhCd2JHbGxja2xFSWlCVWVYQmxQU0pKYm5Rek1pSWdMejQ4Um1sbGJHUWdUbUZ0WlQwaVEyRjBaV2R2Y25sSlJDSWdWSGx3WlQwaVNXNTBNeklpSUM4K1BFWnBaV3hrSUU1aGJXVTlJbEYxWVc1MGFYUjVVR1Z5Vlc1cGRDSWdWSGx3WlQwaVUzUnlhVzVuSWlBdlBqeEdhV1ZzWkNCT1lXMWxQU0pWYm1sMFVISnBZMlVpSUZSNWNHVTlJa1JsWTJsdFlXd2lJQzgrUEVacFpXeGtJRTVoYldVOUlsVnVhWFJ6U1c1VGRHOWpheUlnVkhsd1pUMGlTVzUwTVRZaUlDOCtQRVpwWld4a0lFNWhiV1U5SWxWdWFY
+/// UnpUMjVQY21SbGNpSWdWSGx3WlQwaVNXNTBNVFlpSUM4K1BFWnBaV3hrSUU1aGJXVTlJbEpsYjNKa1pYSk1aWFpsYkNJZ1ZIbHdaVDBpU1c1ME1UWWlJQzgrUEVacFpXeGtJRTVoYldVOUlrUnBjMk52Ym5ScGJuVmxaQ0lnVkhsd1pUMGlRbTl2YkdWaGJpSWdMejQ4Um1sbGJHUWdUbUZ0WlQwaVJVRk9NVE1pSUZSNWNHVTlJbE4wY21sdVp5SWdMejQ4TDFacFpYYytQRkpsYkdGMGFXOXVJRTFoYzNSbGNqMGlRMkYwWldkdmNtbGxjeUlnUkdWMFlXbHNQU0pRY205a2RXTjBjeUkrUEV0bGVVTnZiSFZ0YmlCTllYTjBaWEk5SWtOaGRHVm5iM0o1U1VRaUlFUmxkR0ZwYkQwaVEyRjBaV2R2Y25sSlJDSWdMejQ4TDFKbGJHRjBhVzl1UGp4U1pXeGhkR2x2YmlCTllYTjBa
+/// WEk5SWtWdGNHeHZlV1ZsY3lJZ1JHVjBZV2xzUFNKUGNtUmxjbk1pUGp4TFpYbERiMngxYlc0Z1RXRnpkR1Z5UFNKRmJYQnNiM2xsWlVsRUlpQkVaWFJoYVd3OUlrVnRjR3h2ZVdWbFNVUWlJQzgrUEM5U1pXeGhkR2x2Ymo0OFVtVnNZWFJwYjI0Z1RXRnpkR1Z5UFNKUGNtUmxjbk1pSUVSbGRHRnBiRDBpVDNKa1pYSWdSR1YwWVdsc2N5SStQRXRsZVVOdmJIVnRiaUJOWVhOMFpYSTlJazl5WkdWeVNVUWlJRVJsZEdGcGJEMGlUM0prWlhKSlJDSWdMejQ4TDFKbGJHRjBhVzl1UGp4U1pXeGhkR2x2YmlCTllYTjBaWEk5SWxCeWIyUjFZM1J6SWlCRVpYUmhhV3c5SWs5eVpHVnlJRVJsZEdGcGJITWlQanhMWlhsRGIyeDFiVzRnVFdGemRHVnlQU0pRY205a2RXTjBTVVFp
+/// SUVSbGRHRnBiRDBpVUhKdlpIVmpkRWxFSWlBdlBqd3ZVbVZzWVhScGIyNCtQQzlFWVhSaFUyVjBQZz09</Resource>
+///   </Resources>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class CategoriesReport : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.TopMarginBand TopMargin1;
+        private DevExpress.XtraReports.UI.ReportHeaderBand reportHeaderBand1;
+        private DevExpress.XtraReports.UI.XRLabel label7;
+        private DevExpress.XtraReports.UI.DetailBand detailBand1;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.XRLabel label2;
+        private DevExpress.XtraReports.UI.XRLabel label3;
+        private DevExpress.XtraReports.UI.XRLabel label4;
+        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.XRLabel label6;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private DevExpress.XtraReports.UI.PageFooterBand pageFooterBand1;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo2;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin1;
+        private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
+        private DevExpress.XtraReports.UI.XRControlStyle Title;
+        private DevExpress.XtraReports.UI.XRControlStyle FieldCaption;
+        private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
+        private DevExpress.XtraReports.UI.XRControlStyle DataField;
+        private System.Resources.ResourceManager _resources;
+        private string _resourceString;
+        public CategoriesReport() {
+            this._resourceString = DevExpress.XtraReports.Serialization.XRResourceManager.GetResourceFor("XtraReportSerialization.CategoriesReport");
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(this._resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            DevExpress.DataAccess.Sql.TableQuery tableQuery1 = new DevExpress.DataAccess.Sql.TableQuery();
+            DevExpress.DataAccess.Sql.TableInfo tableInfo1 = new DevExpress.DataAccess.Sql.TableInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo1 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo2 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo3 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo4 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.TableQuery tableQuery2 = new DevExpress.DataAccess.Sql.TableQuery();
+            DevExpress.DataAccess.Sql.TableInfo tableInfo2 = new DevExpress.DataAccess.Sql.TableInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo5 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo6 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo7 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo8 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo9 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo10 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo11 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo12 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo13 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo14 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo15 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.TableQuery tableQuery3 = new DevExpress.DataAccess.Sql.TableQuery();
+            DevExpress.DataAccess.Sql.TableInfo tableInfo3 = new DevExpress.DataAccess.Sql.TableInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo16 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo17 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo18 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo19 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo20 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo21 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo22 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo23 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo24 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo25 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo26 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo27 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo28 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo29 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo30 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo31 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo32 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.TableQuery tableQuery4 = new DevExpress.DataAccess.Sql.TableQuery();
+            DevExpress.DataAccess.Sql.TableInfo tableInfo4 = new DevExpress.DataAccess.Sql.TableInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo33 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo34 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo35 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo36 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo37 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.TableQuery tableQuery5 = new DevExpress.DataAccess.Sql.TableQuery();
+            DevExpress.DataAccess.Sql.TableInfo tableInfo5 = new DevExpress.DataAccess.Sql.TableInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo38 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo39 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo40 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo41 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo42 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo43 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo44 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo45 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo46 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo47 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo48 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo49 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.ColumnInfo columnInfo50 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.MasterDetailInfo masterDetailInfo1 = new DevExpress.DataAccess.Sql.MasterDetailInfo();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo1 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.MasterDetailInfo masterDetailInfo2 = new DevExpress.DataAccess.Sql.MasterDetailInfo();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo2 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.MasterDetailInfo masterDetailInfo3 = new DevExpress.DataAccess.Sql.MasterDetailInfo();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo3 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.MasterDetailInfo masterDetailInfo4 = new DevExpress.DataAccess.Sql.MasterDetailInfo();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo4 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            this.TopMargin1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.reportHeaderBand1 = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.detailBand1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.pageFooterBand1 = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.BottomMargin1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.label7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.pageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.pageInfo2 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource();
+            this.Title = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.FieldCaption = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.PageInfo = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.DataField = new DevExpress.XtraReports.UI.XRControlStyle();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // TopMargin1
+            // 
+            this.TopMargin1.Dpi = 100F;
+            this.TopMargin1.HeightF = 100F;
+            this.TopMargin1.Name = "TopMargin1";
+            // 
+            // reportHeaderBand1
+            // 
+            this.reportHeaderBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label7});
+            this.reportHeaderBand1.Dpi = 100F;
+            this.reportHeaderBand1.HeightF = 45F;
+            this.reportHeaderBand1.Name = "reportHeaderBand1";
+            // 
+            // detailBand1
+            // 
+            this.detailBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label1,
+                        this.label2,
+                        this.label3,
+                        this.label4,
+                        this.label5,
+                        this.label6,
+                        this.line1});
+            this.detailBand1.Dpi = 100F;
+            this.detailBand1.HeightF = 75F;
+            this.detailBand1.Name = "detailBand1";
+            // 
+            // pageFooterBand1
+            // 
+            this.pageFooterBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.pageInfo1,
+                        this.pageInfo2});
+            this.pageFooterBand1.Dpi = 100F;
+            this.pageFooterBand1.HeightF = 29F;
+            this.pageFooterBand1.Name = "pageFooterBand1";
+            // 
+            // BottomMargin1
+            // 
+            this.BottomMargin1.Dpi = 100F;
+            this.BottomMargin1.HeightF = 100F;
+            this.BottomMargin1.Name = "BottomMargin1";
+            // 
+            // label7
+            // 
+            this.label7.Dpi = 100F;
+            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(6F, 6F);
+            this.label7.Name = "label7";
+            this.label7.SizeF = new System.Drawing.SizeF(638F, 39F);
+            this.label7.StyleName = "Title";
+            this.label7.Text = "Categories";
+            // 
+            // label1
+            // 
+            this.label1.Dpi = 100F;
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(6F, 9F);
+            this.label1.Name = "label1";
+            this.label1.SizeF = new System.Drawing.SizeF(162F, 18F);
+            this.label1.StyleName = "FieldCaption";
+            this.label1.Text = "Category ID";
+            // 
+            // label2
+            // 
+            this.label2.Dpi = 100F;
+            this.label2.LocationFloat = new DevExpress.Utils.PointFloat(6F, 33F);
+            this.label2.Name = "label2";
+            this.label2.SizeF = new System.Drawing.SizeF(162F, 18F);
+            this.label2.StyleName = "FieldCaption";
+            this.label2.Text = "Category Name";
+            // 
+            // label3
+            // 
+            this.label3.Dpi = 100F;
+            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(6F, 57F);
+            this.label3.Name = "label3";
+            this.label3.SizeF = new System.Drawing.SizeF(162F, 18F);
+            this.label3.StyleName = "FieldCaption";
+            this.label3.Text = "Description";
+            // 
+            // label4
+            // 
+            this.label4.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Categories.CategoryID")});
+            this.label4.Dpi = 100F;
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(174F, 9F);
+            this.label4.Name = "label4";
+            this.label4.SizeF = new System.Drawing.SizeF(470F, 18F);
+            this.label4.StyleName = "DataField";
+            // 
+            // label5
+            // 
+            this.label5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Categories.CategoryName")});
+            this.label5.Dpi = 100F;
+            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(174F, 33F);
+            this.label5.Name = "label5";
+            this.label5.SizeF = new System.Drawing.SizeF(470F, 18F);
+            this.label5.StyleName = "DataField";
+            // 
+            // label6
+            // 
+            this.label6.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Categories.Description")});
+            this.label6.Dpi = 100F;
+            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(174F, 57F);
+            this.label6.Name = "label6";
+            this.label6.SizeF = new System.Drawing.SizeF(470F, 18F);
+            this.label6.StyleName = "DataField";
+            // 
+            // line1
+            // 
+            this.line1.Dpi = 100F;
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(6F, 3F);
+            this.line1.Name = "line1";
+            this.line1.SizeF = new System.Drawing.SizeF(638F, 2F);
+            // 
+            // pageInfo1
+            // 
+            this.pageInfo1.Dpi = 100F;
+            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(6F, 6F);
+            this.pageInfo1.Name = "pageInfo1";
+            this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(313F, 23F);
+            this.pageInfo1.StyleName = "PageInfo";
+            // 
+            // pageInfo2
+            // 
+            this.pageInfo2.Dpi = 100F;
+            this.pageInfo2.Format = "Page {0} of {1}";
+            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(331F, 6F);
+            this.pageInfo2.Name = "pageInfo2";
+            this.pageInfo2.SizeF = new System.Drawing.SizeF(313F, 23F);
+            this.pageInfo2.StyleName = "PageInfo";
+            this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // sqlDataSource1
+            // 
+            this.sqlDataSource1.ConnectionName = "NorthwindDatabase";
+            this.sqlDataSource1.Name = "sqlDataSource1";
+            tableQuery1.Name = "Categories";
+            tableInfo1.Name = "Categories";
+            columnInfo1.Name = "CategoryID";
+            columnInfo2.Name = "CategoryName";
+            columnInfo3.Name = "Description";
+            columnInfo4.Name = "Picture";
+            tableInfo1.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
+                        columnInfo1,
+                        columnInfo2,
+                        columnInfo3,
+                        columnInfo4});
+            tableQuery1.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
+                        tableInfo1});
+            tableQuery2.Name = "Products";
+            tableInfo2.Name = "Products";
+            columnInfo5.Name = "ProductID";
+            columnInfo6.Name = "ProductName";
+            columnInfo7.Name = "SupplierID";
+            columnInfo8.Name = "CategoryID";
+            columnInfo9.Name = "QuantityPerUnit";
+            columnInfo10.Name = "UnitPrice";
+            columnInfo11.Name = "UnitsInStock";
+            columnInfo12.Name = "UnitsOnOrder";
+            columnInfo13.Name = "ReorderLevel";
+            columnInfo14.Name = "Discontinued";
+            columnInfo15.Name = "EAN13";
+            tableInfo2.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
+                        columnInfo5,
+                        columnInfo6,
+                        columnInfo7,
+                        columnInfo8,
+                        columnInfo9,
+                        columnInfo10,
+                        columnInfo11,
+                        columnInfo12,
+                        columnInfo13,
+                        columnInfo14,
+                        columnInfo15});
+            tableQuery2.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
+                        tableInfo2});
+            tableQuery3.Name = "Employees";
+            tableInfo3.Name = "Employees";
+            columnInfo16.Name = "EmployeeID";
+            columnInfo17.Name = "LastName";
+            columnInfo18.Name = "FirstName";
+            columnInfo19.Name = "Title";
+            columnInfo20.Name = "TitleOfCourtesy";
+            columnInfo21.Name = "BirthDate";
+            columnInfo22.Name = "HireDate";
+            columnInfo23.Name = "Address";
+            columnInfo24.Name = "City";
+            columnInfo25.Name = "Region";
+            columnInfo26.Name = "PostalCode";
+            columnInfo27.Name = "Country";
+            columnInfo28.Name = "HomePhone";
+            columnInfo29.Name = "Extension";
+            columnInfo30.Name = "Photo";
+            columnInfo31.Name = "Notes";
+            columnInfo32.Name = "ReportsTo";
+            tableInfo3.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
+                        columnInfo16,
+                        columnInfo17,
+                        columnInfo18,
+                        columnInfo19,
+                        columnInfo20,
+                        columnInfo21,
+                        columnInfo22,
+                        columnInfo23,
+                        columnInfo24,
+                        columnInfo25,
+                        columnInfo26,
+                        columnInfo27,
+                        columnInfo28,
+                        columnInfo29,
+                        columnInfo30,
+                        columnInfo31,
+                        columnInfo32});
+            tableQuery3.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
+                        tableInfo3});
+            tableQuery4.Name = "Order Details";
+            tableInfo4.Name = "Order Details";
+            columnInfo33.Name = "OrderID";
+            columnInfo34.Name = "ProductID";
+            columnInfo35.Name = "UnitPrice";
+            columnInfo36.Name = "Quantity";
+            columnInfo37.Name = "Discount";
+            tableInfo4.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
+                        columnInfo33,
+                        columnInfo34,
+                        columnInfo35,
+                        columnInfo36,
+                        columnInfo37});
+            tableQuery4.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
+                        tableInfo4});
+            tableQuery5.Name = "Orders";
+            tableInfo5.Name = "Orders";
+            columnInfo38.Name = "OrderID";
+            columnInfo39.Name = "CustomerID";
+            columnInfo40.Name = "EmployeeID";
+            columnInfo41.Name = "OrderDate";
+            columnInfo42.Name = "RequiredDate";
+            columnInfo43.Name = "ShippedDate";
+            columnInfo44.Name = "Freight";
+            columnInfo45.Name = "ShipName";
+            columnInfo46.Name = "ShipAddress";
+            columnInfo47.Name = "ShipCity";
+            columnInfo48.Name = "ShipRegion";
+            columnInfo49.Name = "ShipPostalCode";
+            columnInfo50.Name = "ShipCountry";
+            tableInfo5.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
+                        columnInfo38,
+                        columnInfo39,
+                        columnInfo40,
+                        columnInfo41,
+                        columnInfo42,
+                        columnInfo43,
+                        columnInfo44,
+                        columnInfo45,
+                        columnInfo46,
+                        columnInfo47,
+                        columnInfo48,
+                        columnInfo49,
+                        columnInfo50});
+            tableQuery5.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
+                        tableInfo5});
+            this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
+                        tableQuery1,
+                        tableQuery2,
+                        tableQuery3,
+                        tableQuery4,
+                        tableQuery5});
+            masterDetailInfo1.DetailQueryName = "Products";
+            relationColumnInfo1.NestedKeyColumn = "CategoryID";
+            relationColumnInfo1.ParentKeyColumn = "CategoryID";
+            masterDetailInfo1.KeyColumns.Add(relationColumnInfo1);
+            masterDetailInfo1.MasterQueryName = "Categories";
+            masterDetailInfo1.Name = "CategoriesProducts";
+            masterDetailInfo2.DetailQueryName = "Orders";
+            relationColumnInfo2.NestedKeyColumn = "EmployeeID";
+            relationColumnInfo2.ParentKeyColumn = "EmployeeID";
+            masterDetailInfo2.KeyColumns.Add(relationColumnInfo2);
+            masterDetailInfo2.MasterQueryName = "Employees";
+            masterDetailInfo2.Name = "EmployeesOrders";
+            masterDetailInfo3.DetailQueryName = "Order Details";
+            relationColumnInfo3.NestedKeyColumn = "OrderID";
+            relationColumnInfo3.ParentKeyColumn = "OrderID";
+            masterDetailInfo3.KeyColumns.Add(relationColumnInfo3);
+            masterDetailInfo3.MasterQueryName = "Orders";
+            masterDetailInfo3.Name = "OrdersOrder Details";
+            masterDetailInfo4.DetailQueryName = "Order Details";
+            relationColumnInfo4.NestedKeyColumn = "ProductID";
+            relationColumnInfo4.ParentKeyColumn = "ProductID";
+            masterDetailInfo4.KeyColumns.Add(relationColumnInfo4);
+            masterDetailInfo4.MasterQueryName = "Products";
+            masterDetailInfo4.Name = "ProductsOrder Details";
+            this.sqlDataSource1.Relations.AddRange(new DevExpress.DataAccess.Sql.MasterDetailInfo[] {
+                        masterDetailInfo1,
+                        masterDetailInfo2,
+                        masterDetailInfo3,
+                        masterDetailInfo4});
+            this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
+            // 
+            // Title
+            // 
+            this.Title.BackColor = System.Drawing.Color.Transparent;
+            this.Title.BorderColor = System.Drawing.Color.Black;
+            this.Title.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.Title.BorderWidth = 1F;
+            this.Title.Font = new System.Drawing.Font("Times New Roman", 24F);
+            this.Title.ForeColor = System.Drawing.Color.Black;
+            this.Title.Name = "Title";
+            // 
+            // FieldCaption
+            // 
+            this.FieldCaption.BackColor = System.Drawing.Color.Transparent;
+            this.FieldCaption.BorderColor = System.Drawing.Color.Black;
+            this.FieldCaption.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.FieldCaption.BorderWidth = 1F;
+            this.FieldCaption.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
+            this.FieldCaption.ForeColor = System.Drawing.Color.Black;
+            this.FieldCaption.Name = "FieldCaption";
+            // 
+            // PageInfo
+            // 
+            this.PageInfo.BackColor = System.Drawing.Color.Transparent;
+            this.PageInfo.BorderColor = System.Drawing.Color.Black;
+            this.PageInfo.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.PageInfo.BorderWidth = 1F;
+            this.PageInfo.Font = new System.Drawing.Font("Times New Roman", 8F);
+            this.PageInfo.ForeColor = System.Drawing.Color.Black;
+            this.PageInfo.Name = "PageInfo";
+            // 
+            // DataField
+            // 
+            this.DataField.BackColor = System.Drawing.Color.Transparent;
+            this.DataField.BorderColor = System.Drawing.Color.Black;
+            this.DataField.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.DataField.BorderWidth = 1F;
+            this.DataField.Font = new System.Drawing.Font("Times New Roman", 8F);
+            this.DataField.ForeColor = System.Drawing.Color.Black;
+            this.DataField.Name = "DataField";
+            this.DataField.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            // 
+            // CategoriesReport
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.TopMargin1,
+                        this.reportHeaderBand1,
+                        this.detailBand1,
+                        this.pageFooterBand1,
+                        this.BottomMargin1});
+            this.DataMember = "Categories";
+            this.DataSource = this.sqlDataSource1;
+            this.Dpi = 100F;
+            this.Extensions.Add("DataSerializationExtension", "DevExpress.XtraReports.Web.ReportDesigner.DefaultDataSerializer");
+            this.Name = "CategoriesReport";
+            this.PageHeight = 1100;
+            this.PageWidth = 850;
+            this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
+                        this.Title,
+                        this.FieldCaption,
+                        this.PageInfo,
+                        this.DataField});
+            this.Version = "15.2";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}
