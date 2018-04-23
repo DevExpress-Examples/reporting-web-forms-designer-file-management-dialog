@@ -1,0 +1,16 @@
+﻿.reportDesignerIconNew
+{
+    background-image: url("Images/new_32x32.png");
+}
+.reportDesignerIconOpen
+{
+    background-image: url("Images/open_32x32.png");
+}
+.reportDesignerIconSave
+{
+    background-image: url("Images/save_32x32.png");
+}
+.reportDesignerIconSaveAs
+{
+    background-image: url("Images/saveas_32x32.png");
+}
