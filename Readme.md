@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DesignerIconStyles.css](./CS/T227679/Content/DesignerIconStyles.css)
+* **[Default.aspx](./CS/T227679/Default.aspx) (VB: [Default.aspx.vb](./VB/T227679/Default.aspx.vb))**
+* [Default.aspx.cs](./CS/T227679/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/T227679/Default.aspx.vb))
+* [FileDialogControl.ascx](./CS/T227679/FileDialogControl.ascx) (VB: [FileDialogControl.ascx](./VB/T227679/FileDialogControl.ascx))
+* [FileDialogControl.ascx.cs](./CS/T227679/FileDialogControl.ascx.cs) (VB: [FileDialogControl.ascx](./VB/T227679/FileDialogControl.ascx))
+* [ReportTemplate.Designer.cs](./CS/T227679/ReportTemplate.Designer.cs) (VB: [ReportTemplate.Designer.vb](./VB/T227679/ReportTemplate.Designer.vb))
+* [ClientFileDialogControl.js](./CS/T227679/Scripts/ClientFileDialogControl.js) (VB: [ClientFileDialogControl.js](./VB/T227679/Scripts/ClientFileDialogControl.js))
+<!-- default file list end -->
 # ASPxReportDesigner - How to create an ASP.NET End-User reporting application with the filesystem report storage managed by the ASPxFileManager control
 
 
