@@ -1,10 +1,10 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/T227679/Default.aspx) (VB: [Default.aspx.vb](./VB/T227679/Default.aspx.vb))
+* [Default.aspx](./CS/T227679/Default.aspx) (VB: [Default.aspx](./VB/T227679/Default.aspx))
 * [Default.aspx.cs](./CS/T227679/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/T227679/Default.aspx.vb))
 * [FileDialogControl.ascx](./CS/T227679/FileDialogControl.ascx) (VB: [FileDialogControl.ascx](./VB/T227679/FileDialogControl.ascx))
-* [FileDialogControl.ascx.cs](./CS/T227679/FileDialogControl.ascx.cs) (VB: [FileDialogControl.ascx](./VB/T227679/FileDialogControl.ascx))
+* [FileDialogControl.ascx.cs](./CS/T227679/FileDialogControl.ascx.cs) (VB: [FileDialogControl.ascx.vb](./VB/T227679/FileDialogControl.ascx.vb))
 * **[FilesystemReportStorageWebExtension.cs](./CS/T227679/FilesystemReportStorageWebExtension.cs) (VB: [FilesystemReportStorageWebExtension.vb](./VB/T227679/FilesystemReportStorageWebExtension.vb))**
 * [Global.asax.cs](./CS/T227679/Global.asax.cs) (VB: [Global.asax.vb](./VB/T227679/Global.asax.vb))
 * [ClientFileDialogControl.js](./CS/T227679/Scripts/ClientFileDialogControl.js) (VB: [ClientFileDialogControl.js](./VB/T227679/Scripts/ClientFileDialogControl.js))
