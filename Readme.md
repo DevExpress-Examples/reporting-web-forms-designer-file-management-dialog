@@ -2,8 +2,8 @@
 *Files to look at*:
 
 * **[Default.aspx](./CS/T227679/Default.aspx) (VB: [Default.aspx](./VB/T227679/Default.aspx))**
-* [Default.aspx.cs](./CS/T227679/Default.aspx.cs) (VB: [Default.aspx](./VB/T227679/Default.aspx))
-* [FileDialogControl.ascx](./CS/T227679/FileDialogControl.ascx) (VB: [FileDialogControl.ascx.vb](./VB/T227679/FileDialogControl.ascx.vb))
+* [Default.aspx.cs](./CS/T227679/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/T227679/Default.aspx.vb))
+* [FileDialogControl.ascx](./CS/T227679/FileDialogControl.ascx) (VB: [FileDialogControl.ascx](./VB/T227679/FileDialogControl.ascx))
 * [FileDialogControl.ascx.cs](./CS/T227679/FileDialogControl.ascx.cs) (VB: [FileDialogControl.ascx.vb](./VB/T227679/FileDialogControl.ascx.vb))
 * [Global.asax.cs](./CS/T227679/Global.asax.cs) (VB: [Global.asax.vb](./VB/T227679/Global.asax.vb))
 * [SampleReportStorageWebExtension.cs](./CS/T227679/SampleReportStorageWebExtension.cs) (VB: [SampleReportStorageWebExtension.vb](./VB/T227679/SampleReportStorageWebExtension.vb))
