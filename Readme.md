@@ -10,6 +10,9 @@
 * [ClientFileDialogControl.js](./CS/T227679/Scripts/ClientFileDialogControl.js) (VB: [ClientFileDialogControl.js](./VB/T227679/Scripts/ClientFileDialogControl.js))
 <!-- default file list end -->
 # ASPxReportDesigner - How to create an ASP.NET End-User reporting application with the filesystem report storage managed by the ASPxFileManager control
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t227679/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to create an End-User Reporting Application similar to a <strong>WinForms</strong> application that stores reports in the web server's filesystem. The <a href="https://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxFileManagertopic">ASPxFileManager</a> control is used to implement the file Open and Save dialog boxes.</p>
