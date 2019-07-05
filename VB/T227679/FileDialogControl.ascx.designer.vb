@@ -10,69 +10,69 @@
 Namespace T227679
 
 
-    Partial Public Class FileDialogControl
+	Partial Public Class FileDialogControl
 
-        ''' <summary>
-        ''' validationCallback control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected validationCallback As Global.DevExpress.Web.ASPxCallback
+		''' <summary>
+		''' validationCallback control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected validationCallback As Global.DevExpress.Web.ASPxCallback
 
-        ''' <summary>
-        ''' popup control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected popup As Global.DevExpress.Web.ASPxPopupControl
+		''' <summary>
+		''' popup control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected popup As Global.DevExpress.Web.ASPxPopupControl
 
-        ''' <summary>
-        ''' flDialog control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected flDialog As Global.DevExpress.Web.ASPxFormLayout
+		''' <summary>
+		''' flDialog control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected flDialog As Global.DevExpress.Web.ASPxFormLayout
 
-        ''' <summary>
-        ''' fileManager control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fileManager As Global.DevExpress.Web.ASPxFileManager
+		''' <summary>
+		''' fileManager control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected fileManager As Global.DevExpress.Web.ASPxFileManager
 
-        ''' <summary>
-        ''' txFileName control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected txFileName As Global.DevExpress.Web.ASPxTextBox
+		''' <summary>
+		''' txFileName control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected txFileName As Global.DevExpress.Web.ASPxTextBox
 
-        ''' <summary>
-        ''' buttonOk control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected buttonOk As Global.DevExpress.Web.ASPxButton
+		''' <summary>
+		''' buttonOk control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected buttonOk As Global.DevExpress.Web.ASPxButton
 
-        ''' <summary>
-        ''' buttonCancel control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected buttonCancel As Global.DevExpress.Web.ASPxButton
-    End Class
+		''' <summary>
+		''' buttonCancel control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected buttonCancel As Global.DevExpress.Web.ASPxButton
+	End Class
 End Namespace

@@ -1,15 +1,15 @@
-﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.vb"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.cs"
     Inherits="T227679.FileDialogControl" %>
 <%@ Register Assembly="DevExpress.Web.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
 <script type="text/javascript">    
-    var <%=Me.ClientInstanceName%> = new ClientFileDialogControl('<%=Me.ClientInstanceName%>');
-    <%=Me.ClientInstanceName%>.initializeControl = function() {
-        this.popup = <%=popup.ClientID%>;
-        this.fileManager = <%=fileManager.ClientID%>;
-        this.txFileName = <%=txFileName.ClientID%>;
-        this.buttonOk = <%=buttonOk.ClientID%>;        
-        this.validationCallback = <%=validationCallback.ClientID%>
+    var <%= this.ClientInstanceName %> = new ClientFileDialogControl('<%= this.ClientInstanceName %>');
+    <%= this.ClientInstanceName %>.initializeControl = function() {
+        this.popup = <%= popup.ClientID %>;
+        this.fileManager = <%= fileManager.ClientID %>;
+        this.txFileName = <%= txFileName.ClientID %>;
+        this.buttonOk = <%= buttonOk.ClientID %>;        
+        this.validationCallback = <%= validationCallback.ClientID %>
     };
 </script>
 <dx:ASPxCallback ID="validationCallback" runat="server" OnCallback="validationCallback_Callback">
