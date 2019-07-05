@@ -24,9 +24,9 @@ namespace XtraReportSerialization {
     public class CategoriesReport : DevExpress.XtraReports.UI.XtraReport {
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin1;
         private DevExpress.XtraReports.UI.ReportHeaderBand reportHeaderBand1;
-        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label7;
         private DevExpress.XtraReports.UI.DetailBand detailBand1;
+        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label1;
         private DevExpress.XtraReports.UI.XRLabel label2;
         private DevExpress.XtraReports.UI.XRLabel label3;
@@ -181,8 +181,8 @@ namespace XtraReportSerialization {
             this.detailBand1 = new DevExpress.XtraReports.UI.DetailBand();
             this.pageFooterBand1 = new DevExpress.XtraReports.UI.PageFooterBand();
             this.BottomMargin1 = new DevExpress.XtraReports.UI.BottomMarginBand();
-            this.label8 = new DevExpress.XtraReports.UI.XRLabel();
             this.label7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label8 = new DevExpress.XtraReports.UI.XRLabel();
             this.label1 = new DevExpress.XtraReports.UI.XRLabel();
             this.label2 = new DevExpress.XtraReports.UI.XRLabel();
             this.label3 = new DevExpress.XtraReports.UI.XRLabel();
@@ -207,14 +207,14 @@ namespace XtraReportSerialization {
             // reportHeaderBand1
             // 
             this.reportHeaderBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-                        this.label8,
                         this.label7});
-            this.reportHeaderBand1.HeightF = 45.08F;
+            this.reportHeaderBand1.HeightF = 45F;
             this.reportHeaderBand1.Name = "reportHeaderBand1";
             // 
             // detailBand1
             // 
             this.detailBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label8,
                         this.label1,
                         this.label2,
                         this.label3,
@@ -238,14 +238,6 @@ namespace XtraReportSerialization {
             this.BottomMargin1.HeightF = 100F;
             this.BottomMargin1.Name = "BottomMargin1";
             // 
-            // label8
-            // 
-            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(303.64F, 22.08F);
-            this.label8.Name = "label8";
-            this.label8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.label8.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.label8.Text = "label8";
-            // 
             // label7
             // 
             this.label7.LocationFloat = new DevExpress.Utils.PointFloat(6F, 6F);
@@ -253,6 +245,14 @@ namespace XtraReportSerialization {
             this.label7.SizeF = new System.Drawing.SizeF(638F, 39F);
             this.label7.StyleName = "Title";
             this.label7.Text = "Categories";
+            // 
+            // label8
+            // 
+            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(73.99F, 34.08F);
+            this.label8.Name = "label8";
+            this.label8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label8.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.label8.Text = "label8";
             // 
             // label1
             // 
@@ -636,6 +636,7 @@ namespace XtraReportSerialization {
             this.DataMember = "Categories";
             this.DataSource = this.sqlDataSource1;
             this.Extensions.Add("DataSerializationExtension", "DevExpress.XtraReports.Web.ReportDesigner.DefaultDataSerializer");
+            this.Margins = new System.Drawing.Printing.Margins(100, 204, 100, 100);
             this.Name = "CategoriesReport";
             this.PageHeight = 1100;
             this.PageWidth = 850;
