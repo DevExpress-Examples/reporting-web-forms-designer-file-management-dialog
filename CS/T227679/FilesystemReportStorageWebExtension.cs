@@ -73,7 +73,7 @@ namespace T227679 {
             try {
                 string filePath = GetPath(url);
                 throw new NotSupportedException("Saving is not allowed."); //Comment this line to enable saving
-                report.SaveLayout(filePath, true);
+                report.SaveLayoutToXml(filePath);
             }
             catch (Exception ex) {
                 //Pass readable exception message to the Web Report Designer
@@ -85,7 +85,7 @@ namespace T227679 {
             try {
                 string filePath = GetPath(defaultUrl);
                 throw new NotSupportedException("Saving is not allowed."); //Comment this line to enable saving
-                report.SaveLayout(filePath, true);
+                report.SaveLayoutToXml(filePath);
                 return filePath;
             }
             catch (Exception ex) {
