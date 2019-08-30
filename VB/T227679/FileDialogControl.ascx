@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.vb"
     Inherits="T227679.FileDialogControl" %>
 <%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
