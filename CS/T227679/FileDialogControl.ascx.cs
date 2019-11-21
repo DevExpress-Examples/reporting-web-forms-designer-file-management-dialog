@@ -16,10 +16,12 @@ namespace T227679 {
         }
 
         public FileDialogControl() {
-            clientInstanceName = null;
+            clientInstanceName = null;            
         }
 
-        protected void Page_Load(object sender, EventArgs e) {
+        protected void Page_Init(object sender, EventArgs e) {
+            fileManager.Settings.RootFolder = FilesystemReportStorageWebExtension.STORAGE_FOLDER_PATH;
+
             popup.ClientSideEvents.Init = String.Format("function(s, e) {{ {0}.initializeControl(); }}", this.ClientInstanceName);
             fileManager.ClientSideEvents.SelectionChanged = String.Format("function(s, e) {{ {0}.fileManager_SelectionChanged(s, e); }}", this.ClientInstanceName);
             buttonCancel.ClientSideEvents.Click = String.Format("function(s, e) {{ {0}.buttonCancel_Click(); }}", this.ClientInstanceName);
@@ -29,9 +31,10 @@ namespace T227679 {
 
         protected void validationCallback_Callback(object source, DevExpress.Web.CallbackEventArgs e) {
             try {
+                
                 string[] parameters = e.Parameter.Split('|');
                 string dialogMode = parameters[0];
-                string fileName = Server.MapPath(parameters[1]);
+                string fileName = Server.MapPath(Path.Combine(fileManager.Settings.RootFolder, parameters[1]));
                 switch (dialogMode) {
                     case "OPEN":
                         using (var file = File.OpenRead(fileName)) {

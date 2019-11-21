@@ -9,6 +9,8 @@ namespace T227679 {
     public class FilesystemReportStorageWebExtension : DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension {
         HttpContext _context;
 
+        public const string STORAGE_FOLDER_PATH = @"~\App_Data\ReportsStorage\";
+
         public FilesystemReportStorageWebExtension(HttpContext context) {
             this._context = context;
         }
@@ -24,7 +26,7 @@ namespace T227679 {
                 return url;
             }
 
-            return Context.Server.MapPath(url);
+            return Context.Server.MapPath(Path.Combine(STORAGE_FOLDER_PATH, url));
         }
 
         public override bool CanSetData(string url) {
@@ -44,7 +46,7 @@ namespace T227679 {
         }
 
         public override Dictionary<string, string> GetUrls() {
-            string storagePath = Context.Server.MapPath(@"~\ReportsStorage\");
+            string storagePath = Context.Server.MapPath(STORAGE_FOLDER_PATH);
 
             Dictionary<string, string> urls = new Dictionary<string, string>();
             string[] reportFiles = Directory.GetFiles(storagePath, "*.repx", SearchOption.AllDirectories);

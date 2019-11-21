@@ -28,7 +28,7 @@
                         <LayoutItemNestedControlCollection>
                             <dx:LayoutItemNestedControlContainer runat="server">
                                 <dx:ASPxFileManager ID="fileManager" runat="server" Width="800px" Height="500px">
-                                    <Settings RootFolder="~\ReportsStorage\" ThumbnailFolder="~\Thumb\" />
+                                    <Settings ThumbnailFolder="~\App_Data\Thumb\" />
                                     <SettingsFileList View="Details">
                                     </SettingsFileList>
                                     <%-- File modificateions are not allowed. --%>

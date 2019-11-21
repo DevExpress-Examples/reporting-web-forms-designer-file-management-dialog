@@ -127,8 +127,8 @@
     <Compile Include="FilesystemReportStorageWebExtension.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ReportsStorage\Categories\" />
-    <Folder Include="ReportsStorage\Products\" />
+    <Folder Include="App_Data\ReportsStorage\Categories\" />
+    <Folder Include="App_Data\ReportsStorage\Products\" />
   </ItemGroup>
   <ItemGroup />
   <ProjectExtensions>

@@ -59,9 +59,9 @@
         this.txFileName.SetText("");
         this.fileManager.Refresh();
         this.popup.Show();
-    }
+    };
     this.GetFileName = function () {
-        return "~\\" + this.fileManager.GetCurrentFolderPath() + "\\" + this.txFileName.GetText();
+        return this.fileManager.GetCurrentFolderPath("\\", true) + "\\" + this.txFileName.GetText();
     };
 
     //Public methods
