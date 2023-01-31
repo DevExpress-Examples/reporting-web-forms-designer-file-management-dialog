@@ -1,10 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="T227679.Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.XtraReports.v19.2.Web.WebForms, Version=19.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.XtraReports.v19.2.Web.WebForms, Version=19.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.XtraReports.Web.ClientControls" TagPrefix="cc1" %>
 <%@ Register Src="~/FileDialogControl.ascx" TagPrefix="uc" TagName="FileDialogControl" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -50,9 +50,9 @@
         }
 
         function reportDesigner_CustomizeMenuActions(s, e) {
-            var defaultOpenAction = e.GetById(DevExpress.Designer.Report.ActionId.OpenReport);
-            var defaultSaveAction = e.GetById(DevExpress.Designer.Report.ActionId.Save);
-            var defaultSaveAsAction = e.GetById(DevExpress.Designer.Report.ActionId.SaveAs);
+            var defaultOpenAction = e.GetById(DevExpress.Reporting.Designer.Actions.ActionId.OpenReport);
+            var defaultSaveAction = e.GetById(DevExpress.Reporting.Designer.Actions.ActionId.Save);
+            var defaultSaveAsAction = e.GetById(DevExpress.Reporting.Designer.Actions.ActionId.SaveAs);
 
             if (defaultOpenAction)
                 defaultOpenAction.clickAction = reportDesigner_Open;
