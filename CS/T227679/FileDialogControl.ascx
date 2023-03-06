@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.cs"
     Inherits="T227679.FileDialogControl" %>
-<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
 <script type="text/javascript">    
     var <%= this.ClientInstanceName %> = new ClientFileDialogControl('<%= this.ClientInstanceName %>');
@@ -31,7 +31,7 @@
                                     <Settings ThumbnailFolder="~\App_Data\Thumb\" />
                                     <SettingsFileList View="Details">
                                     </SettingsFileList>
-                                    <%-- File modificateions are not allowed. --%>
+                                    <%-- File modifications are not allowed. --%>
                                     <%--<SettingsEditing AllowCopy="True" AllowDelete="True" AllowDownload="True" AllowMove="True"
                                         AllowRename="True" />--%>
                                     <SettingsUpload Enabled="False">
