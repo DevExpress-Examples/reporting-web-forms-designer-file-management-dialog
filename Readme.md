@@ -22,7 +22,8 @@ The **FileDialogControl** is the custom control. Its client-side functionality i
 
 > **Note** The `SetData` and `SetNewData` method implementations in the `FilesystemReportStorageWebExtension` class does not allow you to save a report. You can modify these methods if needed.
 
-![Report Designer with the ASPxFileManager Control in the Open Report Dialog](Images\screenshot.png)
+![Report Designer with the ASPxFileManager Control in the Open Report Dialog](Images/screenshot.png)
+
 ## Files to Look At
 
 * [Default.aspx](./CS/T227679/Default.aspx)
