@@ -9,9 +9,6 @@
 
 # Reporting for Web Forms - Report Designer with the ASPxFileManager Control in the Open Report Dialog
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128597856/)**
-<!-- run online end -->
 
 
 In this example, the Open/Save Report dialog boxes are implemented with the [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) control.
