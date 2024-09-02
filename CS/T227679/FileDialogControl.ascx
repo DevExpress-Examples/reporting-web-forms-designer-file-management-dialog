@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FileDialogControl.ascx.cs"
     Inherits="T227679.FileDialogControl" %>
-<%@ Register Assembly="DevExpress.Web.v22.2, Version=22.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
 <script type="text/javascript">    
     var <%= this.ClientInstanceName %> = new ClientFileDialogControl('<%= this.ClientInstanceName %>');
