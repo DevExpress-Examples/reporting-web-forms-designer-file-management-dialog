@@ -4,12 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-*Files to look at*:
-
-
-
 # Reporting for Web Forms - Report Designer with the ASPxFileManager Control in the Open Report Dialog
-
 
 
 In this example, the Open/Save Report dialog boxes are implemented with the [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) control.
@@ -18,12 +13,11 @@ A custom [ASP.NET UserControl](https://learn.microsoft.com/en-us/previous-versio
 
 The **FileDialogControl** is the custom control. Its client-side functionality is located in the `ClientFileDialogControl` JavaScript class.
 
-> **Note** The `SetData` and `SetNewData` method implementations in the `FilesystemReportStorageWebExtension` class does not allow you to save a report. You can modify these methods if needed.
+> **Note** The `SetData` and `SetNewData` method implementations in the `FilesystemReportStorageWebExtension` class do not allow you to save a report. You can modify these methods if needed.
 
 ![Report Designer with the ASPxFileManager Control in the Open Report Dialog](Images/screenshot.png)
 
-## Files to Look At
-
+## Files to Review
 * [Default.aspx](./CS/T227679/Default.aspx)
 * [Default.aspx.cs](./CS/T227679/Default.aspx.cs)
 * [FileDialogControl.ascx](./CS/T227679/FileDialogControl.ascx)
