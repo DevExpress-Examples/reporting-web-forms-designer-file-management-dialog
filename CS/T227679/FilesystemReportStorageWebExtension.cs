@@ -40,7 +40,7 @@ namespace T227679 {
                 return File.ReadAllBytes(filePath);
             }
             catch (Exception ex) {
-                //Pass readable exception message to the Web Report Designer
+                // Pass readable exception message to the Web Report Designer.
                 throw new FaultException(ex.Message);
             }
         }
@@ -74,11 +74,11 @@ namespace T227679 {
         public override void SetData(XtraReport report, string url) {
             try {
                 string filePath = GetPath(url);
-                throw new NotSupportedException("Saving is not allowed."); //Comment this line to enable saving
-                report.SaveLayoutToXml(filePath);
-            }
-            catch (Exception ex) {
-                //Pass readable exception message to the Web Report Designer
+                throw new NotSupportedException("Saving is not allowed."); // Comment this line to enable saving.
+                // Uncomment the following line to enable saving.
+                // report.SaveLayoutToXml(filePath);
+            } catch (Exception ex) {
+                // Pass readable exception message to the Web Report Designer.
                 throw new FaultException(ex.Message);
             }
         }
@@ -87,11 +87,11 @@ namespace T227679 {
             try {
                 string filePath = GetPath(defaultUrl);
                 throw new NotSupportedException("Saving is not allowed."); //Comment this line to enable saving
-                report.SaveLayoutToXml(filePath);
-                return filePath;
-            }
-            catch (Exception ex) {
-                //Pass readable exception message to the Web Report Designer
+                // Uncomment the following lines to enable saving.
+                // report.SaveLayoutToXml(filePath);
+                // return filePath;
+            } catch (Exception ex) {
+                // Pass readable exception message to the Web Report Designer.
                 throw new FaultException(ex.Message);
             }
         }
