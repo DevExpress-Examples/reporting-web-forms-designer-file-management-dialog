@@ -38,7 +38,7 @@ The **FileDialogControl** is the custom control. Its client-side functionality i
 - [How to Customize the Save As and Open Dialogs in the Web End-User Report Designer](https://github.com/DevExpress-Examples/Reporting-How-To-Customize-Open-And-Save-As-Dialogs)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-designer-file-management-dialog&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-designer-file-management-dialog&~~~was_helpful=no)
 
